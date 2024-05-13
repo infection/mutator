@@ -12,5 +12,8 @@
         "psr-4": {
             "Infection\\Mutator\\Tests\\": "tests/"
         }
+    },
+    "require": {
+        "nikic/php-parser": "^5.0"
     }
 }
