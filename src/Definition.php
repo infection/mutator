@@ -36,6 +36,7 @@ declare(strict_types=1);
 namespace Infection\Mutator;
 
 use function in_array;
+use InvalidArgumentException;
 
 final class Definition
 {
@@ -52,7 +53,7 @@ final class Definition
         private readonly string $diff,
     ) {
         if (!in_array($category, MutatorCategory::ALL, true)) {
-            throw new \InvalidArgumentException('Invalid category: ' . $category);
+            throw new InvalidArgumentException('Invalid category: ' . $category);
         }
 
         $this->category = $category;

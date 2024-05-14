@@ -37,10 +37,6 @@ namespace Infection\Mutator;
 
 final class MutatorCategory
 {
-    private function __construct()
-    {
-    }
-
     /**
      * Semantic reductions exposes unused semantics. For example:
      *
@@ -95,4 +91,8 @@ final class MutatorCategory
         self::SEMANTIC_ADDITION,
         self::ORTHOGONAL_REPLACEMENT,
     ];
+
+    private function __construct()
+    {
+    }
 }
