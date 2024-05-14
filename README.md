@@ -2,7 +2,7 @@
 
 This is a repository for `Mutator` interface to implement custom mutators (mutation operators).
 
-![test-framework-adapter](./docs/test-framework-adapter.png)
+![infection-mutator](./docs/infection-mutator.png)
 
 ### Installation
 
