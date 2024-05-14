@@ -1,7 +1,7 @@
 {
     "name": "infection/mutator",
     "type": "library",
-    "description": "Mutator interface to implement custom mutator operators for Infection",
+    "description": "Mutator interface to implement custom mutators (mutation operators) for Infection",
     "license": "BSD-3-Clause",
     "authors": [
         {
